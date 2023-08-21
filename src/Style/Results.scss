@@ -1,0 +1,37 @@
+.result {
+  h1 {
+    text-align: center;
+  }
+  .question {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    min-height: 80%;
+    max-width: 950px;
+    background-color: var(--color-1);
+    border-radius: 15px;
+    padding: 30px;
+    margin-top: 30px;
+    h2 {
+      height: 20%;
+      color: var(--color-2);
+      text-align: center;
+    }
+    .answer-result {
+      font-size: 1.1rem;
+      padding-top: 10px;
+    }
+    .green {
+      color: var(--color-4);
+      font-weight: bold;
+    }
+    .red {
+      color: var(--color-6);
+      font-weight: bold;
+    }
+  }
+}

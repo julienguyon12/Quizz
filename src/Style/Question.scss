@@ -1,0 +1,38 @@
+.questions-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  .question {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    // margin-top: 30px;
+    width: 50%;
+    min-height: 80%;
+    max-width: 950px;
+    background-color: var(--color-1);
+    border-radius: 15px;
+    padding: 30px;
+    h2 {
+      height: 20%;
+      color: var(--color-2);
+      text-align: center;
+    }
+    .container-answers {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+    }
+    .container-validate {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 20%;
+    }
+  }
+}
